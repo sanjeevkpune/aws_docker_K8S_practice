@@ -1,4 +1,4 @@
-### Here we will update terraform templates in day3 to serve https requests
+### Here we will update terraform templates in day3 to serve https requests. It is expected that the domain devops-practice.click domain exists and based on that we generated certs from https://app.zerossl.com/. Generate and import certs to AWS ACM as explained in Day3
 --------------------
 To update your AWS setup to serve HTTPS requests using the ACM certificate with ID `c01e79e1-8b86-4591-91ad-3708fb58c175`, you need to make changes in the **Application Module (`modules/app`)**.
 
