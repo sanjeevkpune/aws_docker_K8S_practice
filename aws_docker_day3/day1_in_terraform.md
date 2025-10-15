@@ -74,7 +74,7 @@ variable "hosted_zone_name" {
 variable "ami_id" {
   description = "The AMI ID for the EC2 instances (Ubuntu 22.04 LTS recommended)."
   type        = string
-  default     = "aami-02d26659fd82cf299" # Example ID, replace with current one
+  default     = "ami-02d26659fd82cf299" # Example ID, replace with current one
 }
 ```
 
@@ -731,5 +731,6 @@ Once you are done, you can clean up all the provisioned resources to avoid unwan
 ```bash
 terraform destroy
 ```
+
 
 You must type **`yes`** to confirm the destruction.
